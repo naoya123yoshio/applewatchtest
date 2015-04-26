@@ -14,9 +14,40 @@
 
 @implementation ViewController
 
+-(id)init{
+    
+    if (self) {
+        // init code
+        self.view.backgroundColor = [UIColor lightGrayColor];
+    }
+    
+    return  self;
+}
+
+-(void)loadView{
+    [super loadView];
+    
+    // view initialize
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+}
+
+
+-(void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    
+    // code layout
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
